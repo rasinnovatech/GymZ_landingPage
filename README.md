@@ -29,7 +29,7 @@ Go to **Vercel Dashboard → Your Project → Settings → Environment Variables
 3. In Vercel, add:
    * `RESEND_API_KEY`: `re_your_api_key_here`
    * `CONTACT_RECEIVER_EMAIL`: `gymzai@rasinnovatech.com`
-   * `EMAIL_FROM`: `GymZ AI <onboarding@resend.dev>` (or your verified domain like `GymZ AI <contact@rasinnovatech.com>`)
+   * `EMAIL_FROM`: `GymZ AI <gymzai@rasinnovatech.com>` (verified domain in Resend)
 
 ##### Alternative: Standard SMTP (Gmail, Zoho, Google Workspace, etc.)
 * `SMTP_HOST`: `smtp.gmail.com`
