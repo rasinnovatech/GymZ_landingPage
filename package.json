@@ -1,0 +1,13 @@
+{
+  "name": "gymz-landing",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GymZ AI Landing Page - Train with vision",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}
+

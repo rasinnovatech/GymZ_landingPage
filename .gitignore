@@ -1,0 +1,45 @@
+# Environment & Secrets (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Vercel local state & build output
+.vercel/
+.output/
+
+# Binary APK builds (distributed via rassinnovatech/gymz-releases)
+*.apk
+
+# Nested workspace placeholder directory
+/gymz-landing/
+
+# Logs & caches
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.cache/
+.eslintcache
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+dist/
+coverage/
